@@ -42,6 +42,9 @@ document.getElementById("generate").addEventListener("click", function() {
     let finalPrice = Number (priceTicket - salePrice);
     finalPrice = finalPrice.toFixed(2);
 
+    document.getElementById("ticket_name").innerHTML = userIdentity;
+    document.getElementById("price").innerHTML = finalPrice + "€";
+
     
     console.log("Nome e Cognome:", userIdentity);
     console.log("Distanza da Percorrere:", distanceKm, "KM");

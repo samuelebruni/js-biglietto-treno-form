@@ -6,4 +6,84 @@
 
 body{
     background-color: white;
+    background-color: rgb(173, 15, 15);
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 15px;
+    border: 1px solid grey;
+    box-shadow: 0px 0.1px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+h1{
+    color:white;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2px;
+    font-size: 55px;
+}
+
+.dflex > div{
+    font-size: 25px;
+    color: red;
+}
+
+.my_top{
+    margin-top: 4.5rem;
+}
+
+.bg_dark{
+    background-color: grey;
+}
+
+#dnone{
+    display: noe;
+}
+
+.container2{
+    color: black;
+}
+
+.dflex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+input , select , button{
+    width: 15rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 15px;
+    border-color: red;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.col{
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border: 1px solid;
+    padding: 1rem;
 }

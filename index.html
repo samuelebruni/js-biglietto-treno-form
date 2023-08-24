@@ -13,17 +13,17 @@
     <div class="container">
         
         <div class="row">
-            <div>
+            <div class="dflex">
                 <div>Nome e Cognome</div>
                 <input type="text" id="user_identity" placeholder="es. Samuele Bruni">
             </div>
 
-            <div>
+            <div class="dflex">
                 <div>KM da Percorrere</div>
                 <input type="text" id="distance" placeholder="es. 10">
             </div>
 
-            <div>
+            <div class="dflex">
                 <div>Fascia d'Età</div>
                 <select id="age">
                     <option value="Maggiorenne">Maggiorenne</option>
@@ -33,7 +33,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row my_top">
             <button id="generate">Genera</button>
             <button id="reset">Reset</button>
         </div>
@@ -41,26 +41,42 @@
     </div>
 
 
-    <div>
+    <div id="dnone">
         <h1>IL TUO BIGLIETTO</h1>
 
         <div class="container">
             <div class="container_2">
                 <div class="row">
                     <div class="col">
-                        <h2>DETTAGLIO PASSEGERI</h2>
-                        <div class="card">
+                        <div class="card bg_dark">
                             <h3>NOME PASSEGGERO</h3>
                             <h4 id="ticket_name"></h4>
                         </div>
-                    </div>
+                        <div class="card">
+                            <h3>Offerta</h3>
+                            <h4>Biglietto Standard</h4>
+                        </div>
+                        <div class="card">
+                            <h3>Carrozza</h3>
+                            <h4>5</h4>
+                        </div>
+                        <div class="card">
+                            <h3>Codice CP</h3>
+                            <h4>92911</h4>
+                        </div>
+                        <div class="card">
+                            <h3>Costo Biglietto</h3>
+                            <h4 id="price"></h4>
+                        </div>
+                    
+                    
                 </div>
             </div>
 
         </div>
     </div>
 
-    
+
 
         <script src="main.js"></script>
 </body>
