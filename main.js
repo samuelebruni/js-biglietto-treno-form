@@ -58,6 +58,17 @@ document.getElementById("generate").addEventListener("click", function() {
 
   });
 
+  //operazione per resettare completamente il biglietto
+
+  document.getElementById("reset").addEventListener("click", function() {
+        document.getElementById("user_identity").value = "";
+        document.getElementById("distance").value = "";
+        const element = document.getElementById("dnone");
+        element.style.display = "none";
+  });
+
+
+
 
 
 
