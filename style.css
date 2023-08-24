@@ -44,11 +44,11 @@ h1{
 }
 
 .bg_dark{
-    background-color: grey;
+    background-color: rgb(235, 230, 230);
 }
 
 #dnone{
-    display: noe;
+    display: none;
 }
 
 .container2{

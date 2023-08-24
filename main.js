@@ -45,6 +45,10 @@ document.getElementById("generate").addEventListener("click", function() {
     document.getElementById("ticket_name").innerHTML = userIdentity;
     document.getElementById("price").innerHTML = finalPrice + "€";
 
+    //operazione per far apparire il biglietto che si genera
+    const element = document.getElementById("dnone");
+    element.style.display = "block";
+
     
     console.log("Nome e Cognome:", userIdentity);
     console.log("Distanza da Percorrere:", distanceKm, "KM");
