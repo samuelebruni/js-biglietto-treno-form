@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Buy your Ticket</title>
+</head>
+<body>
+    
+    <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+
+    <div class="container">
+        <div>
+            <div>Nome e Cognome</div>
+            <input type="text" id="user_identity" value="Samuele Bruni">
+        </div>
+
+        <div>
+            <div>KM da Percorrere</div>
+            <input type="text" id="distance" value="10">
+        </div>
+
+        <div>
+            <div>Fascia d'Età</div>
+            <select id="age">
+                <option value="0">Maggiorenne</option>
+                <option value="1">Over 65</option>
+                <option value="2">Minorenne</option>
+            </select>
+        </div>
+
+        <button id="generate">Genera</button>
+        <button id="reset">Reset</button>
+
+        <p class="demo"></p>
+
+        
+    </div>
+
+    <h1>IL TUO BIGLIETTO</h1>
+
+    <div class="container">
+        <div class="container_2">
+            <h2>DETTAGLIO PASSEGGERI:</h2>
+            <p id="ticket_name"></p>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
